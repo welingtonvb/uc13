@@ -1,0 +1,14 @@
+CREATE DATABASE Teste
+
+USE Teste
+
+CREATE TABLE Alunos(
+	idAluno INT PRIMARY KEY IDENTITY,
+	Nome VARCHAR(255) NOT NULL
+)
+
+INSERT INTO Alunos VALUES ('Fulano')
+INSERT INTO Alunos VALUES ('Beltrano')
+INSERT INTO Alunos VALUES ('Sicrano')
+
+SELECT * FROM Alunos
